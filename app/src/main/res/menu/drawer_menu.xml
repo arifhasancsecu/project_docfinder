@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_categories_id"
+        android:title="See Categories"
+        android:icon="@drawable/ic_category"
+        android:textColor="@android:color/black"
+        />
+
+    <item
+        android:id="@+id/clinic_id"
+        android:title="Find Clinic"
+        android:icon="@drawable/add_icon"
+        android:textColor="@android:color/black"
+        />
+
+    <item
+        android:id="@+id/bmi_cal_id"
+        android:title="Calculate BMI"
+        android:icon="@drawable/ic_bmi"
+        android:textColor="@android:color/black"
+        />
+
+    <item
+        android:id="@+id/about_us_id"
+        android:title="About Us"
+        android:icon="@drawable/ic_info"
+        android:textColor="@android:color/black"
+        />
+    <item
+        android:id="@+id/contact_us_id"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_contact"
+        android:textColor="@android:color/black"
+        />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:textColor="@android:color/black"
+        />
+</menu>

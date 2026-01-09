@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgNoInternet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_nointernet"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvNoNetwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRetry"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Retry"
+        android:layout_marginBottom="16dp"
+        android:textAllCaps="false"
+        android:paddingVertical="14dp"
+        app:cornerRadius="3dp"
+        app:backgroundTint="@color/blue_primary"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/btnExit"
+        android:textSize="16sp"
+        android:textColor="@color/blue_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"/>
+</LinearLayout>
