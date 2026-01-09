@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3731481481481482" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/add_icon.xml" value="0.143" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/back_arrow.xml" value="0.174" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/blue_button.xml" value="0.1355" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/custom_switch_track.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/fab_square_rounded.xml" value="0.1415" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/gradient_button.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_age.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_alert.xml" value="0.1415" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.16" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_contact.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_home.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_language.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1415" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_launcher_round.xml" value="0.1395" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_location.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_person.xml" value="0.16" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_placeholder.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/ic_search.xml" value="0.177" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/item_bg_selector.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/lang_toggle_selector.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/menu_add_icon.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/otp_box_background.xml" value="0.143" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/profile_circle_bg.xml" value="0.174" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/rounded_dialog.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/search_background.xml" value="0.176" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/shape.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/shape1.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/spinner_border.xml" value="0.176" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/static_rv_selected.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/switch_thumb.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/textview_border.xml" value="0.179" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/toggle_button_selector.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/user_icon.xml" value="0.143" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/wave_another_background.xml" value="0.139" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/drawable/wave_background.xml" value="0.1355" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_add_doctor.xml" value="0.23385416666666667" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_alldocument.xml" value="0.18958333333333333" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_appointment.xml" value="0.16822916666666668" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_bmi.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_category_list.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_clinic.xml" value="0.19270833333333334" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_clinic_details.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_details.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_doctor_list.xml" value="0.268" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_document_details.xml" value="0.10207700101317123" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_document_share.xml" value="0.2" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_full_image.xml" value="0.21875" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_home.xml" value="0.22552083333333334" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_info.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_loading.xml" value="0.18958333333333333" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_location_select.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_login.xml" value="0.2222222222222222" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_main.xml" value="0.22552083333333334" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_no_network.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_otp.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_profile.xml" value="0.1671875" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_profile_update.xml" value="0.19270833333333334" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_signup.xml" value="0.22552083333333334" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_splash.xml" value="0.2109375" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/activity_user_added_doc.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/appointment_layout_item.xml" value="0.27395833333333336" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.191015625" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/dialog_edit_delete.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/dialog_rating.xml" value="0.19270833333333334" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/doc_item.xml" value="0.1" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/doc_item_detail.xml" value="0.21041666666666667" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/drawer_header.xml" value="0.12552083333333333" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/item_clinic.xml" value="0.27395833333333336" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/layout_edit_delete.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/menu_add_icon.xml" value="0.18958333333333333" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/recycler_item_category.xml" value="0.1265625" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/recycler_item_category_vertical.xml" value="0.27395833333333336" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/recycler_item_doctor.xml" value="0.21875" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/recycler_item_search_doctor.xml" value="0.175390625" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/report_item.xml" value="0.1671875" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/layout/spinner_item_layout.xml" value="0.14270833333333333" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/menu/app_menu.xml" value="0.27395833333333336" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/menu/drawer_menu.xml" value="0.12552083333333333" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/menu/menu.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/menu/searchmenu.xml" value="0.275" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1785" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1405" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/xml/file_paths.xml" value="0.20416666666666666" />
+        <entry key="..\:/Z-Project/doctorapp-master/app/src/main/res/xml/login_scene.xml" value="0.275" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.27" />
+        <entry key="app/src/main/res/drawable/shape1.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/drawable/static_rv_bg.xml" value="0.2315" />
+        <entry key="app/src/main/res/layout/activity_category_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_doctor_list.xml" value="0.3691123188405797" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_top_doctor.xml" value="0.3691123188405797" />
+        <entry key="app/src/main/res/layout/category1.xml" value="0.37273550724637683" />
+        <entry key="app/src/main/res/layout/category_list_view.xml" value="0.33061594202898553" />
+        <entry key="app/src/main/res/layout/doctor_list_view.xml" value="0.3691123188405797" />
+        <entry key="app/src/main/res/layout/recycler_item_category.xml" value="0.37273550724637683" />
+        <entry key="app/src/main/res/layout/recycler_item_doctor.xml" value="0.37273550724637683" />
+        <entry key="app/src/main/res/layout/recycler_view_category.xml" value="0.37273550724637683" />
+        <entry key="app/src/main/res/layout/recycler_view_doctor.xml" value="0.37273550724637683" />
+        <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.3691123188405797" />
+        <entry key="app/src/main/res/layout/static_rv_item1.xml" value="0.3691123188405797" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/top_doctor_view.xml" value="0.3691123188405797" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/menu/searchmenu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

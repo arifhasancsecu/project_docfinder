@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">FindDoc</string>
+
+    <string-array name="location_array">
+        <item>Sylhet</item>
+        <item>Dhaka</item>
+        <item>Moulvibazar</item>
+        <item>Barlekha</item>
+        <item>Juri</item>
+        <item>Kulaura</item>
+        <item>Beanibazar</item>
+        <item>Bishwanath</item>
+        <item>Golapganj</item>
+        <item>Zakiganj</item>
+        <item>Kanaighat</item>
+        <item>Charkhai</item>
+        <item>Companiganj</item>
+        <item>Dakshin Surma</item>
+        <item>Chittagong</item>
+    </string-array>
+
+    <string name="Entermobilenumber">"  "মোবাইল নাম্বার দিন</string>
+    <string name="Signin">সাইনইন করুন</string>
+    <string name="Signup">সাইনআপ করুন</string>
+    <string name="Dont">একাউন্ট নেই?</string>
+    <string name="entername">  আপনার নাম </string>
+    <string name="yourage"> আপনার বয়স </string>
+    <string name="selectgen"> লিঙ্গ নির্বাচন করুন </string>
+    <string name="male">পুরুষ</string>
+    <string name="female"> মহিলা </string>
+    <string name="signup">সাইন আপ</string>
+    <string name="alreadyhave"> ইতিমধ্যে একটি একাউন্ট আছে? </string>
+    <string name="desiredoc"> আপনার পছন্দের ডাক্তার খুঁজুন </string>
+
+    <string name="invalid_date">তারিখ সঠিক নয়</string>
+    <string name="unknown">Unknown</string>
+    <string name="edit_coming_soon">Edit functionality coming soon</string>
+    <string name="no_app_found">No app found to open this file</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="delete_confirmation_msg">আপনি কি নিশ্চিত যে এই ডকুমেন্ট মুছে ফেলতে চান?</string>
+    <string name="delete">ডিলিট</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="deleted_successfully">ডিলিটেড</string>
+    <string name="failed_to_delete_database">Failed to delete from database</string>
+    <string name="failed_to_delete_storage">Failed to delete from storage</string>
+    <string name="invalid_document_data">Invalid document data</string>
+
+    <string name="hint_doctor_name">ডাক্তারের নাম লিখুন</string>
+    <string name="hint_doctor_speciality">Enter doctor speciality</string>
+    <string name="btn_proceed">Proceed</string>
+    <string name="title_category">Category</string>
+    <string name="hint_search_doctor">Search doctor</string>
+    <string name="title_doctors">Doctors</string>
+    <string name="no_doctors_found">No doctors found</string>
+    <string name="btn_add">Add</string>
+
+    <string name="img_doctor_patient_desc">Doctor and Patient</string>
+    <string name="store_reports_title">Store Your Reports and Prescriptions and Access Them Anytime, Anywhere</string>
+    <string name="document_type">Document Type</string>
+    <string name="prescription">Prescription</string>
+    <string name="report">Report</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_file">Choose Files</string>
+    <string name="save">Save</string>
+
+    <string name="categories">Categories</string>
+    <string name="top_doctor">জনপ্রিয় ডাক্তার</string>
+    <string name="choose_doctor">Choose The Doctor You Want</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="otp_verification">OTP verification</string>
+    <string name="enter_otp_message">Please enter OTP sent to </string>
+    <string name="otp_masked_number">******749</string>
+    <string name="dont_receive_otp">Don’t receive the OTP?</string>
+    <string name="otp_in_60s">OTP in 60s</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verify_proceed">Verify Proceed</string>
+
+    <string name="please_log_in">Please Login to View Your Profile</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="name">Name</string>
+    <string name="degree">Degree</string>
+    <string name="document_date">Document Date</string>
+    <string name="more_options">More options</string>
+
+    <string name="about_content">Welcome to FindDoc! Our app helps you find doctors, book appointments, and store your medical records securely. We are committed to making healthcare accessible and convenient for everyone.</string>
+    <string name="contact_content">Reach us using below contact info</string>
+    <string name="email_text">Email: support@finddoc.com</string>
+    <string name="phone_text">Phone: +880123456789</string>
+    <string name="address">Address: Sylhet, Bangladesh</string>
+</resources>

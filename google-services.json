@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "179986965390",
+    "firebase_url": "https://doctor-f506d-default-rtdb.firebaseio.com",
+    "project_id": "doctor-f506d",
+    "storage_bucket": "doctor-f506d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179986965390:android:aed185e37ad8f38c75badf",
+        "android_client_info": {
+          "package_name": "com.titukumar.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179986965390-aspui0dao7uhj5g1haj5hdteuk2npt9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTLCtka32JR5JYjfc89MJd0Jq-owx-RjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179986965390-aspui0dao7uhj5g1haj5hdteuk2npt9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

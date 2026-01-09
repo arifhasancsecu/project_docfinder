@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#2eb7ed</color>
+    <color name="text_dark">#100B0B</color>
+    <color name="purple_700">#FF03DAC5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="light_black">#888888</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#B798E2</color>
+    <color name="blue_primary">#1976D2</color>
+    <color name="dark_blue">#2370CC</color>
+    <color name="light_blue">#2D8CFF</color>
+    <color name="light_gray_bg">#EDEDED</color>
+    <color name="light_gray_bgc">#F5F5F5</color>
+    <color name="divider_color">#D1D9DD</color>
+    <color name="stroke_gray">#888888</color>
+    <color name="red_error">#F46662</color>
+    <color name="pink">#E91E63</color>
+    <color name="gray_f5f5f5">#F5F5F5</color>
+    <color name="gray_cccccc">#CCCCCC</color>
+    <color name="gray_555555">#555555</color>
+    <color name="gray_757575">#757575</color>
+    <color name="red_ca4f46">#CA4F46</color>
+    <color name="slight_gray">#D3D3D3</color>
+    <color name="colorPressed">#D3D3D3</color>
+    <color name="colorFocused">#E0E0E0</color>
+    <color name="colorSelected">#C0C0C0</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="gray_disabled">#B0B0B0</color>
+
+
+</resources>
