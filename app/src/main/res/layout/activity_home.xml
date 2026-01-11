@@ -6,7 +6,7 @@
     android:background="@color/background_light"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.titukumar.doctor.activities.HomeActivity">
+    tools:context="com.find.doc.activities.HomeActivity">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"

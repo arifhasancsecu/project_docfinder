@@ -7,7 +7,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.titukumar.doctor"
+        applicationId "com.find.doc"
         minSdkVersion 23
         targetSdkVersion 33
         versionCode 4

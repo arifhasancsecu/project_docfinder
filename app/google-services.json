@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:179986965390:android:3ace9ad17db9500975badf",
         "android_client_info": {
-          "package_name": "com.titukumar.doctor"
+          "package_name": "com.example.bloodbnk"
         }
       },
       "oauth_client": [],
@@ -29,7 +29,45 @@
       "client_info": {
         "mobilesdk_app_id": "1:179986965390:android:aed185e37ad8f38c75badf",
         "android_client_info": {
-          "package_name": "com.titukumar.doctor"
+          "package_name": "com.example.doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTLCtka32JR5JYjfc89MJd0Jq-owx-RjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179986965390:android:8a5d9bdcaf23018d75badf",
+        "android_client_info": {
+          "package_name": "com.find.doc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTLCtka32JR5JYjfc89MJd0Jq-owx-RjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179986965390:android:dd0fd2420c064f5b75badf",
+        "android_client_info": {
+          "package_name": "com.titukumar.doctorclone"
         }
       },
       "oauth_client": [],

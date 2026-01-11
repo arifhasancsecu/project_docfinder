@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="24dp"
-    tools:context="com.titukumar.doctor.activities.OtpActivity">
+    tools:context="com.find.doc.activities.OtpActivity">
 
     <TextView
         android:layout_width="wrap_content"

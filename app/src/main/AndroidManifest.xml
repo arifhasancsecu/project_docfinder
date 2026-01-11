@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.titukumar.doctor">
+    package="com.find.doc">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,7 +18,7 @@
         android:maxSdkVersion="28" />
 
     <application
-        android:name="com.titukumar.doctor.DoctorOffLine"
+        android:name="com.find.doc.DoctorOffLine"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -26,38 +26,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Doctor">
         <activity
-            android:name=".activities.NoNetworkActivity"
+            android:name="com.find.doc.activities.NoNetworkActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.BmiActivity"
+            android:name="com.find.doc.activities.BmiActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ClinicDetails"
+            android:name="com.find.doc.activities.ClinicDetails"
             android:exported="false" />
         <activity
-            android:name=".activities.ClinicActivity"
+            android:name="com.find.doc.activities.ClinicActivity"
             android:exported="false" />
 
         <receiver
-            android:name=".util.AppointmentReminderReceiver"
+            android:name="com.find.doc.util.AppointmentReminderReceiver"
             android:exported="true" />
 
         <activity
-            android:name=".activities.AppointmentActivity"
+            android:name="com.find.doc.activities.AppointmentActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ProfileUpdateActivity"
+            android:name="com.find.doc.activities.ProfileUpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.InfoActivity"
+            android:name="com.find.doc.activities.InfoActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.LocationSelectActivity"
+            android:name="com.find.doc.activities.LocationSelectActivity"
             android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.titukumar.doctor.provider"
+            android:authorities="com.find.doc.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -70,40 +70,40 @@
             android:value="AIzaSyCpRQ_QYtM1MQ9Xrp1eG-0FWs87yvlHPCM" />
 
         <activity
-            android:name=".activities.AddDoctorActivity"
+            android:name="com.find.doc.activities.AddDoctorActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.DocumentShareActivity"
+            android:name="com.find.doc.activities.DocumentShareActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.OtpActivity"
+            android:name="com.find.doc.activities.OtpActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".activities.DocumentDetailsActivity"
+            android:name="com.find.doc.activities.DocumentDetailsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan|stateHidden" />
         <activity
-            android:name=".activities.ProfileActivity"
+            android:name="com.find.doc.activities.ProfileActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".activities.SignupActivity"
+            android:name="com.find.doc.activities.SignupActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".activities.HomeActivity"
+            android:name="com.find.doc.activities.HomeActivity"
             android:windowSoftInputMode="adjustPan|stateHidden" />
         <activity
-            android:name=".activities.DoctorListActivity"
+            android:name="com.find.doc.activities.DoctorListActivity"
             android:windowSoftInputMode="adjustPan|stateHidden" />
-        <activity android:name=".activities.DetailsActivity" />
+        <activity android:name="com.find.doc.activities.DetailsActivity" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name="com.find.doc.activities.LoginActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".activities.CategoryListActivity" />
+        <activity android:name="com.find.doc.activities.CategoryListActivity" />
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="com.find.doc.activities.SplashActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
