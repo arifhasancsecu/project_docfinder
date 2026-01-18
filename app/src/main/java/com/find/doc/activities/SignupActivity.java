@@ -42,16 +42,17 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.already_account_id:
-                Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
-                startActivity(intent);
-                break;
-            case R.id.signup_button_id:
-                registerUser();
-                break;
+        int id = view.getId();
+
+        if (id == R.id.already_account_id) {
+            Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
+            startActivity(intent);
+
+        } else if (id == R.id.signup_button_id) {
+            registerUser();
         }
     }
+
 
     private String getSelectedGender() {
         int selectedId = userGender.getCheckedRadioButtonId();

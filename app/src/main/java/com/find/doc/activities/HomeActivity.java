@@ -18,6 +18,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.find.doc.R;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,7 +40,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.find.doc.R;
 import com.find.doc.adapter.CategoryAdapter;
 import com.find.doc.adapter.DoctorAdapter;
 import com.find.doc.adapter.SearchDoctorAdapter;
@@ -252,34 +252,35 @@ public class HomeActivity extends AppCompatActivity {
     // Bottom Navigation
     private void setupBottomNavigation() {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
-            switch (item.getItemId()) {
-                case R.id.profile_activity:
-                    startActivity(new Intent(this, ProfileActivity.class));
-                    overridePendingTransition(R.xml.slide_in_right, R.xml.slide_out_left);
-                    break;
-                case R.id.add:
-                    handleUploadNavigation();
-                    overridePendingTransition(R.xml.slide_in_right, R.xml.slide_out_left);
-                    break;
+        if (bottomNavigationView == null) return;
 
-                case R.id.location:
-                    startActivity(new Intent(this, LocationSelectActivity.class));
-                    break;
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            int id = item.getItemId();
 
-                case R.id.home:
-                    break;
+            if (id == R.id.profile_activity) {
+                startActivity(new Intent(this, ProfileActivity.class));
+                overridePendingTransition(R.xml.slide_in_right, R.xml.slide_out_left);
 
-                case R.id.all_doctor:
-                    Intent intent = new Intent(this, DoctorListActivity.class);
-                    intent.putExtra("sending", "all_doctor");
-                    startActivity(intent);
-                    overridePendingTransition(R.xml.slide_in_right, R.xml.slide_out_left);
-                    break;
+            } else if (id == R.id.add) {
+                handleUploadNavigation();
+                overridePendingTransition(R.xml.slide_in_right, R.xml.slide_out_left);
+
+            } else if (id == R.id.location) {
+                startActivity(new Intent(this, LocationSelectActivity.class));
+
+            } else if (id == R.id.home) {
+
+            } else if (id == R.id.all_doctor) {
+                Intent intent = new Intent(this, DoctorListActivity.class);
+                intent.putExtra("sending", "all_doctor");
+                startActivity(intent);
+                overridePendingTransition(R.xml.slide_in_right, R.xml.slide_out_left);
             }
+
             return true;
         });
     }
+
 
     // RecyclerViews
     private void populateCategoryAndDoctorRv() {

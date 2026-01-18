@@ -25,32 +25,24 @@ public class BaseActivity extends AppCompatActivity {
             bottomNavigationView.setSelectedItemId(selectedItemId);
         }
 
-        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
-            if (item.getItemId() == selectedItemId) return true;
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            int id = item.getItemId();
 
-            switch (item.getItemId()) {
-                case R.id.profile_activity:
-                    openActivity(ProfileActivity.class, false, null, null);
-                    break;
-                case R.id.add:
-                    checkLoginWithDialog("upload reports or prescriptions",
-                            () -> openActivity(DoctorListActivity.class, true, "sending", "add"));
-                    break;
-
-                case R.id.location:
-                    startActivity(new Intent(this, LocationSelectActivity.class));
-                    break;
-
-                case R.id.home:
-                    openActivity(HomeActivity.class, false, null, null);
-
-                    break;
-                case R.id.all_doctor:
-                    openActivity(DoctorListActivity.class, false, "sending", "all_doctor");
-                    break;
+            if (id == R.id.profile_activity) {
+                openActivity(ProfileActivity.class, false, null, null);
+            } else if (id == R.id.add) {
+                checkLoginWithDialog("upload reports or prescriptions",
+                        () -> openActivity(DoctorListActivity.class, true, "sending", "add"));
+            } else if (id == R.id.location) {
+                startActivity(new Intent(this, LocationSelectActivity.class));
+            } else if (id == R.id.home) {
+                openActivity(HomeActivity.class, false, null, null);
+            } else if (id == R.id.all_doctor) {
+                openActivity(DoctorListActivity.class, false, "sending", "all_doctor");
             }
             return true;
         });
+
     }
 
     protected boolean checkLoginWithDialog(String actionName, Runnable onLoggedIn) {

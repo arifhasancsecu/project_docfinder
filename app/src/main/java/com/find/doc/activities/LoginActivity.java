@@ -55,19 +55,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     @Override
-    public void onClick(View view) {
-        switch(view.getId()){
-            case R.id.goto_signup_id:
-                Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
-                startActivity(intent);
-                break;
+    public void onClick(View v) {
+        int id = v.getId();
 
-            case R.id.signin_button_id:
-                loginUser();
-                break;
+        if (id == R.id.goto_signup_id) {
+            Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
+            startActivity(intent);
 
+        } else if (id == R.id.signin_button_id) {
+            loginUser();
         }
     }
+
 
     private void loginUser() {
         String phoneNo = edtPhoneNumber.getText().toString().trim();
