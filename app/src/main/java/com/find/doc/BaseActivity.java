@@ -28,6 +28,10 @@ public class BaseActivity extends AppCompatActivity {
         bottomNavigationView.setOnItemSelectedListener(item -> {
             int id = item.getItemId();
 
+            if (id == selectedItemId) {
+                return true;
+            }
+
             if (id == R.id.profile_activity) {
                 openActivity(ProfileActivity.class, false, null, null);
             } else if (id == R.id.add) {
