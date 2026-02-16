@@ -22,7 +22,7 @@ import java.util.Objects;
 
 public class AddDoctorActivity extends AppCompatActivity {
 
-    private TextInputEditText edtName, edtSpeciality;
+    private TextInputEditText edtName;
     private MaterialButton btnProceed;
     private ProgressBar progressBar;
 
@@ -34,7 +34,6 @@ public class AddDoctorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_doctor);
 
         edtName = findViewById(R.id.add_doc_name_id);
-        edtSpeciality = findViewById(R.id.add_doc_speciality_id);
         btnProceed = findViewById(R.id.btn_proceed_add_doc_id);
         progressBar = findViewById(R.id.add_doc_progressBar);
 
@@ -47,7 +46,6 @@ public class AddDoctorActivity extends AppCompatActivity {
 
     private void saveDoctor() {
         String name = Objects.requireNonNull(edtName.getText(), "Name input is null").toString().trim();
-        String speciality = Objects.requireNonNull(edtSpeciality.getText(), "Speciality input is null").toString().trim();
 
         if (TextUtils.isEmpty(name)) {
             edtName.setError("Doctor name required");
@@ -60,24 +58,12 @@ public class AddDoctorActivity extends AppCompatActivity {
             return;
         }
 
-        if (TextUtils.isEmpty(speciality)) {
-            edtSpeciality.setError("Speciality required");
-            edtSpeciality.requestFocus();
-            return;
-        }
-        if (speciality.length() < 3) {
-            edtSpeciality.setError("Speciality must be at least 3 characters");
-            edtSpeciality.requestFocus();
-            return;
-        }
-
         btnProceed.setVisibility(View.GONE);
         progressBar.setVisibility(View.VISIBLE);
 
         String docId = doctorsRef.push().getKey();
         Map<String, Object> doctorData = new HashMap<>();
         doctorData.put("name", name);
-        doctorData.put("category", speciality);
         doctorData.put("created_at", System.currentTimeMillis());
         doctorData.put("updated_at", System.currentTimeMillis());
 
@@ -86,7 +72,6 @@ public class AddDoctorActivity extends AppCompatActivity {
                     .addOnSuccessListener(unused -> {
                         if (!isFinishing()) {
                             edtName.setText("");
-                            edtSpeciality.setText("");
                             resetUI();
 
                             Intent intent = new Intent(AddDoctorActivity.this, DocumentShareActivity.class);
@@ -113,9 +98,8 @@ public class AddDoctorActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         String name = edtName.getText() != null ? edtName.getText().toString().trim() : "";
-        String speciality = edtSpeciality.getText() != null ? edtSpeciality.getText().toString().trim() : "";
 
-        if (!name.isEmpty() || !speciality.isEmpty()) {
+        if (!name.isEmpty()) {
             new AlertDialog.Builder(this)
                     .setTitle("Discard changes?")
                     .setIcon(R.drawable.alert_icon)

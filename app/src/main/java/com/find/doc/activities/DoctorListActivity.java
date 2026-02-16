@@ -18,6 +18,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.find.doc.adapter.DoctorListSearchAdapter;
+import com.find.doc.adapter.SearchDoctorAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -44,6 +46,8 @@ public class DoctorListActivity extends BaseActivity {
     private LinearLayout emptyLayout;
     private Button btnAddDoctor;
     private String categoryName = "";
+    private DoctorListSearchAdapter doctorListSearchAdapter; // Add this one
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,6 +79,10 @@ public class DoctorListActivity extends BaseActivity {
         emptyLayout = findViewById(R.id.empty_layout);
         btnAddDoctor = findViewById(R.id.btn_add_doctor);
 
+        // Add this one
+        doctorListSearchAdapter = new DoctorListSearchAdapter(from);
+
+
         btnAddDoctor.setVisibility("add".equals(from) ? View.VISIBLE : View.GONE);
         btnAddDoctor.setOnClickListener(v -> {
             Intent intent = new Intent(DoctorListActivity.this, AddDoctorActivity.class);
@@ -84,25 +92,71 @@ public class DoctorListActivity extends BaseActivity {
 
         populateDoctorList(categoryName);
 
+        // Update this one
         searchDoc.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-            }
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                if (categoryName != null && !categoryName.isEmpty()) {
-                    searchDoctorsByCategory(charSequence.toString().trim());
-                }else{
-                    filterDoctorsLocally(charSequence.toString().trim());
-                }
+            @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+            @Override public void afterTextChanged(Editable s) {}
 
-            }
             @Override
-            public void afterTextChanged(Editable editable) {
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                String keyword = s.toString().trim();
+
+                if (!keyword.isEmpty()) {
+                    searchDoctors(keyword);
+                    doctorListRv.setAdapter(doctorListSearchAdapter);
+                } else {
+                    doctorListRv.setAdapter(doctorAdapter);
+                }
             }
         });
 
+
+
     }
+
+
+    // New method have to add
+    private void searchDoctors(String keyword) {
+        FirebaseDatabase db = FirebaseDatabase.getInstance();
+        DatabaseReference reference = db.getReference("Doctor");
+
+        reference.get().addOnCompleteListener(task -> {
+            if (!task.isSuccessful() || task.getResult() == null) return;
+
+            List<Doctor> filteredList = new ArrayList<>();
+            String lowerKeyword = keyword.toLowerCase();
+
+            for (DataSnapshot snap : task.getResult().getChildren()) {
+                Doctor doctor = snap.getValue(Doctor.class);
+                if (doctor == null) continue;
+
+                doctor.setDoctorId(snap.getKey());
+
+                if (categoryName != null && !categoryName.isEmpty()
+                        && !categoryName.equals(doctor.getCategory())) {
+                    continue;
+                }
+
+                String name = doctor.getName() == null ? "" : doctor.getName().trim().toLowerCase();
+                if (name.contains(lowerKeyword)) {
+                    filteredList.add(doctor);
+                }
+            }
+
+            if (filteredList.isEmpty()) {
+                emptyLayout.setVisibility(View.VISIBLE);
+                doctorListRv.setVisibility(View.GONE);
+            } else {
+                emptyLayout.setVisibility(View.GONE);
+                doctorListRv.setVisibility(View.VISIBLE);
+            }
+
+            doctorListSearchAdapter.submitList(filteredList);
+            doctorListRv.setAdapter(doctorListSearchAdapter);
+        });
+    }
+
+
 
 
     @Override

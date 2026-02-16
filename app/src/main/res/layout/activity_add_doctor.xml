@@ -70,29 +70,7 @@
                     android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="360dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                app:endIconMode="clear_text"
-                app:boxBackgroundMode="outline"
-                app:boxCornerRadiusTopStart="20dp"
-                app:boxCornerRadiusTopEnd="20dp"
-                app:boxCornerRadiusBottomStart="20dp"
-                app:boxCornerRadiusBottomEnd="20dp"
-                app:hintTextColor="@color/pink"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_marginTop="12dp">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/add_doc_speciality_id"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hint_doctor_speciality"
-                    android:importantForAutofill="no"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp" />
-            </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_proceed_add_doc_id"

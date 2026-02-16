@@ -36,7 +36,7 @@
     <string name="unknown">Unknown</string>
     <string name="edit_coming_soon">Edit functionality coming soon</string>
     <string name="no_app_found">No app found to open this file</string>
-    <string name="confirm_delete">Confirm Delete</string>
+    <string name="confirm_delete">ডিলিট কনফার্ম করুন</string>
     <string name="delete_confirmation_msg">আপনি কি নিশ্চিত যে এই ডকুমেন্ট মুছে ফেলতে চান?</string>
     <string name="delete">ডিলিট</string>
     <string name="cancel">বাতিল করুন</string>
@@ -47,21 +47,21 @@
 
     <string name="hint_doctor_name">ডাক্তারের নাম লিখুন</string>
     <string name="hint_doctor_speciality">Enter doctor speciality</string>
-    <string name="btn_proceed">Proceed</string>
+    <string name="btn_proceed">এগিয়ে যান</string>
     <string name="title_category">Category</string>
-    <string name="hint_search_doctor">Search doctor</string>
+    <string name="hint_search_doctor">ডাক্তার খুজুন</string>
     <string name="title_doctors">Doctors</string>
-    <string name="no_doctors_found">No doctors found</string>
-    <string name="btn_add">Add</string>
+    <string name="no_doctors_found">কোন ডাক্তার পাওয়া যায়নি</string>
+    <string name="btn_add">এড করুন</string>
 
     <string name="img_doctor_patient_desc">Doctor and Patient</string>
     <string name="store_reports_title">Store Your Reports and Prescriptions and Access Them Anytime, Anywhere</string>
-    <string name="document_type">Document Type</string>
-    <string name="prescription">Prescription</string>
-    <string name="report">Report</string>
-    <string name="take_photo">Take Photo</string>
-    <string name="choose_file">Choose Files</string>
-    <string name="save">Save</string>
+    <string name="document_type">ডকুমেন্ট এর টাইপ</string>
+    <string name="prescription">প্রেসক্রিপশন</string>
+    <string name="report">রিপোর্ট</string>
+    <string name="take_photo">ছবি তুলুন</string>
+    <string name="choose_file">ফাইল সিলেক্ট</string>
+    <string name="save">সেভ করুন</string>
 
     <string name="categories">Categories</string>
     <string name="top_doctor">জনপ্রিয় ডাক্তার</string>
@@ -86,7 +86,7 @@
 
     <string name="about_content">Welcome to FindDoc! Our app helps you find doctors, book appointments, and store your medical records securely. We are committed to making healthcare accessible and convenient for everyone.</string>
     <string name="contact_content">Reach us using below contact info</string>
-    <string name="email_text">Email: support@finddoc.com</string>
-    <string name="phone_text">Phone: +880123456789</string>
+    <string name="email_text">Email: findoc.health@gmail.com</string>
+    <string name="phone_text">Phone: +8801792614660</string>
     <string name="address">Address: Sylhet, Bangladesh</string>
 </resources>

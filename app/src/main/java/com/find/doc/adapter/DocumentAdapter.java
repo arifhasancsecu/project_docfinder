@@ -44,8 +44,6 @@ public class DocumentAdapter extends RecyclerView.Adapter<DocumentAdapter.Docume
 
         if (doc.getDegree() != null && !doc.getDegree().isEmpty()) {
             holder.docDegree.setText(doc.getDegree());
-        } else if (doc.getCategory() != null && !doc.getCategory().isEmpty()) {
-            holder.docDegree.setText(doc.getCategory());
         } else {
             holder.docDegree.setText("N/A");
         }
