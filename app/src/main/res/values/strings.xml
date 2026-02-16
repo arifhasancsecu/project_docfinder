@@ -19,7 +19,7 @@
         <item>Chittagong</item>
     </string-array>
 
-
+    <string name="hint_search_hospital">Search Hospital</string>
     <string name="Entermobilenumber">"  "Enter mobile number</string>
     <string name="Signin">Signin</string>
     <string name="Signup">Signup</string>

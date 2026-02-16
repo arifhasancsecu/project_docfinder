@@ -19,6 +19,7 @@
         <item>Chittagong</item>
     </string-array>
 
+    <string name="hint_search_hospital">হাসপাতাল খুজুন</string>
     <string name="Entermobilenumber">"  "মোবাইল নাম্বার দিন</string>
     <string name="Signin">সাইনইন করুন</string>
     <string name="Signup">সাইনআপ করুন</string>
